@@ -13,6 +13,8 @@ private:
 	Priorities queue;//sorted by price, facilitating fast order match
 	std::unordered_map<char*, Order*> map;//mapping unique id to order, facilitating fast order location et modification
 public:
+	Pool();
+	~Pool();
 	void add(Order* const);//add an order to the pool
 	void reduce(Order* const);//order reduction
 };

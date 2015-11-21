@@ -124,6 +124,7 @@
     <ClInclude Include="Priorities.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Engine.cpp" />
     <ClCompile Include="Pool.cpp" />
     <ClCompile Include="Pricer.cpp" />
     <ClCompile Include="Priorities.cpp" />

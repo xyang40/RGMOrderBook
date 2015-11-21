@@ -2,6 +2,15 @@
 #include<iterator>
 #include<iostream>
 #include<unordered_map>
+
+Pool::Pool() {
+	//todo
+}
+
+Pool::~Pool() {
+	//todo
+}
+
 //need to deal with race condition in future editions
 void Pool::add(Order* const order) {
 	this->map[order->id] = order;
